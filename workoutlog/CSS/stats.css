@@ -1,0 +1,38 @@
+/* Reset default margin and padding for the page */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0;
+}
+
+/* Style for the container of the pie chart */
+.chart-container {
+    width: 400px; 
+    height: 400px; 
+}
+
+/* Style for the pie chart */
+.chart {
+    width: 100%;
+    height: 100%;
+}
+
+/* Specify colors for the sections of the pie chart */
+.chart .section:nth-child(1) { background-color: red; }
+.chart .section:nth-child(2) { background-color: orange; }
+.chart .section:nth-child(3) { background-color: yellow; }
+.chart .section:nth-child(4) { background-color: green; }
+.chart .section:nth-child(5) { background-color: blue; }
+.chart .section:nth-child(6) { background-color: indigo; }
+.chart .section:nth-child(7) { background-color: violet; }
+
+/* Additional styling for the sections of the pie chart */
+.chart .section {
+    border-radius: 50%; 
+    position: absolute;
+    transform-origin: center; 
+}
